@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 
+from csv_sample import SweepPoint       # C에서 include 하는 것과 동일.
+
 setting_val = []
 
 class MainWindow(QWidget):  # 창을 만들 QWidget 클래스를 상속 받음
