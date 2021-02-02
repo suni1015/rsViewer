@@ -113,7 +113,7 @@ class MainWindow(QWidget):  # 창을 만들 QWidget 클래스를 상속 받음
     def set_table_data(self):
         row_header = ['Start Frequency', 'Stop Frequency', 'Measure', 'Power',
                       'Bandwidth', 'Number of Point', 'Measure Result', 'Limit Setting']
-        col_header = ['Value']
+        col_header = ['Val.']
         self.setting_result.setVerticalHeaderLabels(row_header)
         self.setting_result.setHorizontalHeaderLabels(col_header)
         '''
